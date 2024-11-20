@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 408: expected 'simple_expression' not found.
-    color 
-          ^
+File "game/script.rpy", line 6: invalid syntax
+    Character("Puter", window_background=Frame("images/textbox/green.png", 25, 25), namebox_background="images/textbox/green_namebox.png", who_xpos=200, who_ypos=-100 color="#FFF")
+                                                                                                                                                                        ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Wed Nov 20 10:37:20 2024
+Wed Nov 20 11:53:55 2024
