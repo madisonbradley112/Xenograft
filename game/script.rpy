@@ -3,8 +3,10 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
+define puter = Character("Puter", window_background=Frame("images/textbox/green.png", 25, 25), namebox_background="images/textbox/green_namebox.png", color="#FFF")
+define tunep = Character("Tunep", window_background=Frame("images/textbox/orange.png", 25, 25))
+define jupiter = Character("Jupiter")
+define neptune = Character("Neptune")
 
 # The game starts here.
 
@@ -14,19 +16,19 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg
+    scene black
+
+    "As you lay your head to sleep after a long day of "
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show green scared
+    show puter scared
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    puter "AUUUUGHHHHHH"
 
     # This ends the game.
 
