@@ -131,7 +131,7 @@ define gui.namebox_tile = False
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
 define gui.dialogue_xpos = 402
-define gui.dialogue_ypos = 75
+define gui.dialogue_ypos = 100 
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 1116
@@ -190,8 +190,8 @@ define gui.page_button_borders = Borders(15, 6, 15, 6)
 
 define gui.quick_button_borders = Borders(15, 6, 15, 0)
 define gui.quick_button_text_size = 21
-define gui.quick_button_text_idle_color = gui.idle_small_color
-define gui.quick_button_text_selected_color = gui.accent_color
+define gui.quick_button_text_idle_color = "#7D2FA5"
+define gui.quick_button_text_selected_color = "#B14DE3"
 
 ## You can also add your own customizations, by adding properly-named variables.
 ## For example, you can uncomment the following line to set the width of a

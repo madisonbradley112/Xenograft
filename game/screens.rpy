@@ -279,6 +279,7 @@ style quick_button:
     properties gui.button_properties("quick_button")
 
 style quick_button_text:
+    outlines [(5, "#fff", 0, 0)] 
     properties gui.text_properties("quick_button")
 
 
